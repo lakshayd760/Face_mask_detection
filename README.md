@@ -22,17 +22,19 @@ https://www.kaggle.com/datasets/andrewmvd/face-mask-detection
 https://github.com/ultralytics/yolov5
 
 ### Overview of the dataset:
-our dataset consist of images in .png format and their respective .xml file consists of the bounding boxes, names, labels, etc which will be required for training our model
+our dataset consist of images in .png format and their respective .xml file consists of the bounding boxes, names, labels, etc which will be required for training our model<br/>
+![](https://github.com/lakshayd760/Face_mask_detection/blob/master/Images/maksssksksss0.png)
+![](https://github.com/lakshayd760/Face_mask_detection/blob/master/Images/maksssksksss6.png)
 
 ## Preprocessing the data
 For preprocessing the data, we need to convert the .xml files to new text files containing all the necessary informations like bounding boxes, labels, etc<br/>
 while processing the images, we need to convert them into equal shapes to feed them into our model and their data has to be changes according to the change in the image
-
-### For training the model, we use the following code as:
+## Training Model
+For training the model, we use the following code as:
 >cd yolov5
 >python train.py --img 640 --batch 16 --epochs 100 --data ../mask_config.yaml --weights yolov5s.pt --workers 0
 
-###  Testing
+###  Testing Model
 After the model is trained on the data, its time to test it over the test data.<br/>
 This test data can be of any form like image, video, youtube link, etc
 
