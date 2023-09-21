@@ -23,8 +23,8 @@ https://github.com/ultralytics/yolov5
 
 ### Overview of the dataset:
 our dataset consist of images in .png format and their respective .xml file consists of the bounding boxes, names, labels, etc which will be required for training our model<br/>
-![](https://github.com/lakshayd760/Face_mask_detection/tree/master/Images/maksssksksss0.png)
-![](https://github.com/lakshayd760/Face_mask_detection/tree/master/Images/maksssksksss6.png)
+!["Set1"](https://github.com/lakshayd760/Face_mask_detection/blob/master/Images/maksssksksss0.png)
+![Set2](https://github.com/lakshayd760/Face_mask_detection/blob/master/Images/maksssksksss6.png)
 
 ## Preprocessing the data
 For preprocessing the data, we need to convert the .xml files to new text files containing all the necessary informations like bounding boxes, labels, etc<br/>
